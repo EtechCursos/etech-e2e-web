@@ -18,7 +18,5 @@ jobs:
           java-version: 18
           maven-version: 3.9.4
 
-#      - name: Build & Install
-#        run: mvn -B install -D skipTests --no-transfer-progress
       - name: Run tests
         run: mvn clean install
