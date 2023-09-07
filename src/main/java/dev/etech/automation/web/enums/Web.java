@@ -1,14 +1,19 @@
 package dev.etech.automation.web.enums;
 
 import dev.etech.automation.web.interfaces.AplicacaoWeb;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public enum Web implements AplicacaoWeb {
     CHROME {
         @Override
         public WebDriver getDriver() {
-            return new ChromeDriver();
+            WebDriverManager.chromedriver().setup();
+            ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.setHeadless(true);
+            return new ChromeDriver(chromeOptions);
         }
     }
     ;

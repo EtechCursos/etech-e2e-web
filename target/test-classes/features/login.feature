@@ -1,7 +1,6 @@
 #language: pt
 #enconding: UTF-8
-#author: Enzo Garcia Rodrigues
-#date: 11/05/2023
+#author: E.tech Cursos
 #version: 1.0
 
 Funcionalidade: Login
@@ -17,6 +16,6 @@ Funcionalidade: Login
   @smokeTest @loginAplicacao
   Cenário: Validar o login na aplicação
     Quando inserir os dados do usuário
-      | email                    | senha    |
-      | enzikagarcia10@gmail.com | teste123 |
-    Então devo visualizar o campo "Enzo Garcia"
+      | email               | senha     |
+      | automacao@etech.dev | Etech@123 |
+    Então devo visualizar o campo "E.Tech"
