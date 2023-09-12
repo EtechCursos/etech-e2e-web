@@ -1,7 +1,0 @@
-dev\etech\automation\web\funcs\LoginFunc.class
-dev\etech\automation\web\funcs\HomeFunc.class
-dev\runTest\RunTest.class
-dev\etech\automation\web\pages\HomePage.class
-dev\etech\automation\web\steps\LoginStep.class
-dev\etech\automation\web\steps\HomeStep.class
-dev\etech\automation\web\pages\LoginPage.class
