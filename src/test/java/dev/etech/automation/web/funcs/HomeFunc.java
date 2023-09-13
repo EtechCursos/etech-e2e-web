@@ -2,6 +2,7 @@ package dev.etech.automation.web.funcs;
 
 import dev.etech.automation.web.common.BaseTest;
 import dev.etech.automation.web.pages.HomePage;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class HomeFunc extends BaseTest {
 
@@ -12,6 +13,7 @@ public class HomeFunc extends BaseTest {
     }
 
     public void clicarCampoSair(){
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(homePage.getLoading()));
         driver.findElement(homePage.getCampoSair()).click();
     }
 
