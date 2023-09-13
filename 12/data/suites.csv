@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Sep 13 14:27:00 GMT 2023","Wed Sep 13 14:27:12 GMT 2023","11917","","Login","","Validar o login na aplicação","","Validar o login na aplicação","  Com essa funcionalidade iremos realizar o login de um usuário cadastrado na aplicação
+
+  Como um usuário cadastrado
+  Eu preciso inserir dados cadastrais
+  Para o login ser efetuado com sucesso"
