@@ -1,0 +1,11 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Sep 16 19:57:10 GMT 2023","Sat Sep 16 19:57:13 GMT 2023","2635","","Logout","","Validar o logout na aplicação","","Validar o logout na aplicação","  Com essa funcionalidade iremos realizar o logout de um usuário cadastrado na aplicação
+
+  Como um usuário cadastrado
+  Eu preciso clicar no campo ""Sair""
+  Para o logout ser efetuado com sucesso"
+"passed","Sat Sep 16 19:57:00 GMT 2023","Sat Sep 16 19:57:10 GMT 2023","10013","","Login","","Validar o login na aplicação","","Validar o login na aplicação","  Com essa funcionalidade iremos realizar o login de um usuário cadastrado na aplicação
+
+  Como um usuário cadastrado
+  Eu preciso inserir dados cadastrais
+  Para o login ser efetuado com sucesso"
