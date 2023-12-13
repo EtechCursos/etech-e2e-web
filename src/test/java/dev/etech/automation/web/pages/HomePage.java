@@ -4,9 +4,9 @@ import org.openqa.selenium.By;
 
 public class HomePage {
     By titleNome = By.xpath("//p[@class='logged-user']");
-    By campoSair = By.xpath("//a[@href='/logout' and parent::div[@class='logged']]");
+    By campoSair = By.xpath("//a[@href='/logout' and @class='link']");
     By campoProcura = By.xpath("//label[@class='label']");
-    By loading = By.xpath("//div[@aria-label='Loading']");
+    By loading = By.xpath("//*[@fill-rule='evenodd']");
 
 
     public By getTitleNome() {return titleNome;}

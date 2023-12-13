@@ -2,6 +2,7 @@ package dev.etech.automation.web.funcs;
 
 import dev.etech.automation.web.common.BaseTest;
 import dev.etech.automation.web.pages.LoginPage;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class LoginFunc extends BaseTest {
 
