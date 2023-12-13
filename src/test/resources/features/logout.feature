@@ -17,7 +17,7 @@ Funcionalidade: Logout
       | email               | senha     |
       | automacao@etech.dev | Etech@123 |
 
-  @logout
+  @logout @smokeTest
   Cenário: Validar o logout na aplicação
     Quando realizar o logout
     Então devo realizar o logout com sucesso
