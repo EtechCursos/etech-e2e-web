@@ -12,7 +12,7 @@ public enum Web implements AplicacaoWeb {
         public WebDriver getDriver() {
             WebDriverManager.chromedriver().setup();
             ChromeOptions chromeOptions = new ChromeOptions();
-//            chromeOptions.addArguments("--headless");
+            chromeOptions.addArguments("--headless");
             return new ChromeDriver(chromeOptions);
         }
     }
