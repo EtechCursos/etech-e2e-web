@@ -2,10 +2,7 @@ package dev.etech.automation.web.steps;
 
 import dev.etech.automation.web.funcs.LoginFunc;
 import io.cucumber.datatable.DataTable;
-import io.cucumber.java.pt.Dado;
-import io.cucumber.java.pt.E;
-import io.cucumber.java.pt.Entao;
-import io.cucumber.java.pt.Quando;
+import io.cucumber.java.pt.*;
 import org.junit.Assert;
 
 import java.util.List;
@@ -14,7 +11,7 @@ import java.util.Map;
 public class LoginStep {
 
     LoginFunc loginFunc = new LoginFunc();
-    @Dado("estiver na tela de login")
+    @Dado("que o cliente esteja na tela de login")
     public void estiverNaTelaLogin(){
         loginFunc.acessarTelaLogin();
 
@@ -39,4 +36,13 @@ public class LoginStep {
     }
 
 
+    @E("acesso a tela de cadastro de usuário")
+    public void acessoATelaDeCadastroDeUsuário() {
+        loginFunc.acessarTelaCadastro();
+    }
+
+    @Então("devo visualizar a tela de login")
+    public void devoVisualizarATelaDeLogin() {
+        loginFunc.validaExistenciaTelaLogin();
+    }
 }
