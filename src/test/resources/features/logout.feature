@@ -12,7 +12,7 @@ Funcionalidade: Logout
   Para o logout ser efetuado com sucesso
 
   Contexto: Entrar na tela de login
-    Dado estiver na tela de login
+    Dado que o cliente esteja na tela de login
     E inserir os dados do usuário
       | email               | senha     |
       | automacao@etech.dev | Etech@123 |

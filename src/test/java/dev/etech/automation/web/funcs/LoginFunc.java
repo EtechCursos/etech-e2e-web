@@ -8,7 +8,7 @@ public class LoginFunc extends BaseTest {
 
     LoginPage loginPage = new LoginPage();
     public void acessarTelaLogin(){
-        driver.get("https://automation-web.etech.dev/login");
+        driver.get("https://automation-web.etech.dev/");
     }
 
     public void realizarLogin(String usuario, String senha){
@@ -23,5 +23,13 @@ public class LoginFunc extends BaseTest {
 
     public void clicarCampoCriarConta(){
         driver.findElement(loginPage.getCampoCriarConta()).click();
+    }
+
+    public void acessarTelaCadastro(){
+        driver.findElement(loginPage.getLinkQueroCriarUmaConta()).click();
+    }
+
+    public void validaExistenciaTelaLogin(){
+        wait.until(ExpectedConditions.urlContains("/login"));
     }
 }

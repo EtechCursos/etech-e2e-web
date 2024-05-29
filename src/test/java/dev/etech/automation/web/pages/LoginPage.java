@@ -8,7 +8,9 @@ public class LoginPage {
     By botaoEntrar = By.xpath("//button[@class='button btn-filled']");
     By campoEsqueciSenha = By.xpath("//a[@href='/recuperar-senha']");
     By campoCriarConta = By.xpath("//a[@href='/cadastro']");
-
+    By linkQueroCriarUmaConta = By.xpath("//a[@href='/cadastro']");
+    
+    
     public By getCampoEmailRegistrado() {return campoEmailRegistrado;}
 
     public By getCampoSenhaRegistrada() {return campoSenhaRegistrada;}
@@ -18,4 +20,8 @@ public class LoginPage {
     public By getCampoEsqueciSenha() {return campoEsqueciSenha;}
 
     public By getCampoCriarConta() {return campoCriarConta;}
+
+    public By getLinkQueroCriarUmaConta() {
+        return linkQueroCriarUmaConta;
+    }
 }

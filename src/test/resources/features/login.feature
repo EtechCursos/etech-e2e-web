@@ -11,7 +11,7 @@ Funcionalidade: Login
   Para o login ser efetuado com sucesso
 
   Contexto: Entrar na tela de login
-    Dado estiver na tela de login
+    Dado que o cliente esteja na tela de login
 
   @smokeTest @loginAplicacao
   Cenário: Validar o login na aplicação

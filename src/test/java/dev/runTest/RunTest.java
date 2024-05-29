@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
                 plugin = {"pretty", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
                 features = {"./src/test/resources/features"},
                 glue = {"dev.etech.automation.web.steps", "dev.etech.automation.web.configuration"},
-                tags = "@smokeTest")
+                tags = "@cadastro")
 
 public class RunTest {
 
